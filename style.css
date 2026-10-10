@@ -1,0 +1,114 @@
+/* estilo geral */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 211, 61);
+}
+/* estilo geral */
+
+/* corpo */
+body {
+    text-align: center;
+}
+/*corpo*/
+
+/*tabela*/
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    display: inline-block, flex;
+    text-decoration: none;
+    color: rgb(92, 33, 230);
+    justify-content: space-between;
+    transition: .2s;
+}
+
+table a{
+    display: inline-block;
+}
+
+table a:hover{
+    color: rgb(49, 146, 231);
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+th, td {
+    padding: 10px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+.post {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+/*tabela*/
+
+/*titulo*/
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/*titulo*/
+
+/*texto*/
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 1.6;
+}
+/*texto*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*link*/
+a {
+    text-decoration: none;
+    color: red;
+}
+/*link*/
+
+a:hover {
+    text-decoration: underline;
+}
+/*link*/
+
+/*formulário */
+.form-container {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+}
+
+.form-container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,textarea,button{
+   background-color:white;
+   transition: border-color 0.3, box-shadow 0.3;
+   font: inherit;
+   padding: 1.25;
+   margin-bottom: 1rem; 
+}
+
+button{
+    display: grid;
+    width: 30%;
+    font:inherit;
+    padding: 1.125;
+    font-weight: 700;
+}
+/*formulario*/
